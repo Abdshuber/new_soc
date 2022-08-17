@@ -1,0 +1,43 @@
+
+.normal {
+ width: 300px;
+ font-weight: bold;
+ font-size: 1rem;
+       
+        margin: 20px auto;
+        padding: 20px;
+
+
+        font-weight: bolder;
+        /* background-color: rgba(151, 137, 137, 0.61); */
+        background-color: rgb(110, 110, 110,.6);
+        
+        }
+
+.one{
+                width: 300px;
+                font-weight: bold;
+                font-size: 1rem;
+                      
+                       margin: 20px auto;
+                       padding: 20px;               
+
+                       font-weight: bold;
+                       /* background-color: rgba(151, 137, 137, 0.61); */
+                       background-color: rgb(110, 110, 110,.1);
+                       
+                       }
+.two {
+                        width: 300px;
+                       
+                        font-weight: bold;
+                        font-size: 1rem;
+                              
+                               margin: 20px auto;
+                               padding: 20px;
+                       
+                               font-weight: bolder;
+                               /* background-color: rgba(151, 137, 137, 0.61); */
+                               background-color: rgb(110, 110, 110,.4);
+                               opacity: .2;
+                               }
