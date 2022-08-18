@@ -1,35 +1,162 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
 
-    <title>Document</title>
-    <link rel="stylesheet" href="../Css-Project/master.css/important-project.css">
+    <title>Wikipedia page</title>
+<link rel="stylesheet" href="master.css/important-project.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;800&family=DynaPuff&family=Jomhuria&family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;800&family=DynaPuff&family=Jomhuria&family=Open+Sans:ital1,4lay=swap" rel="stylesheet">
+
 </head>
-
 <body>
-<h1>Abd.M.Shuebr </h1>
+    
+<form class="main" method="get" >
 
-<img src="Abd.jpg" alt="src iemags" >
-<div class="caption">This images is talk at 8:14pm in tusday ,2021/7/18 </div>
+<div class="title"><h1>Good Vibes Form</h1></div>
 
-<div class="List">
+<div class="form">
 
-    <ul>
-    <li>Playing photball</li>
-    <li>playing tennes</li>
-    <li>playing basktball</li>
-    <li>finshed html langage</li>
-    <li>learning css langage </li>
-    <li> compleated half of kran karem</li>
-</ul>
+
+
+    <div class="half-1-form">
+
+        <div class="title-form"><h2>Tell us something positive that happened to you today.</h2></div>
+
+<div class="inp-name"> 
+
+    <label >Name</label>
+    <input class="name" type="text" placeholder="Enter Your Name.." required>
+
+</div>
+
+<div class="inp-email">
+
+    <label >Email</label>
+    <input  class = "email" type="email" placeholder="Enter Your Email.." required>
+ 
+</div>
+<div class="inp-number">
+
+    <label >selct from 1 and 10</label>
+    <input type="number" class="num" max="10" min="1" placeholder="Enter number between 1 and 10">
+
+</div>
+    <div class="inp-radio">
+
+<label class="rad-labl">At what time of day did it happen?</label>
+
+<div class="all-radio">
+    
+<div class="rad-1">
+    <input type="radio"  id="radio-1" value="radio-1" name="drone" >
+<label for="radio-1"> Morning </label>
+
+</div> 
+
+<div class="rad-2">
+
+<input type="radio"  id="radio-2" value="radio-2" name="drone">
+<label for="radio-2">Afternoon</label>
+
+</div>
+
+<div class="rad-3">
+<input type="radio"  id="radio-3" name="drone"  value="radio-3"> 
+<label for="radio-3">Evening</label>
+
+</div>
+
+
+</div> 
+
+</div>
+
+
+</div>
+<div class="half-2-form">
+
+<div class="inp-chek-box">
+<label class="chek-labl">What emotions did you experience?</label>
+
+<div class="chek-1">
+    
+    <input type="checkbox"  id="check-1">
+    <label for="check-1">Excited</label>
+
+</div>
+<div class="chek-2">
+    
+    <input type="checkbox"  id="check-2">
+    <label for="check-2">Humbled</label>
+
+</div>
+
+<div class="chek-3">
+    
+    <input type="checkbox"  id="check-3">
+    <label for="check-3">Elated</label>
+</div>
+<div class="chek-4">
+    
+    <input type="checkbox"  id="check-4">
+    <label for="check-4">Loved</label>
+
+</div>
+
+<div class="chek-5">
+    
+    <input type="checkbox"  id="check-5">
+    <label for="check-5">Enthusiastic</label>
+
+</div>
+
+</div>
+
+<div class="option">
+  <label for="opt " > Who Did The Event Happen To ?</label>
+  
+  <select name="Option-To-Choose" id="opt">
+
+    <optgroup label="on your home ">
+        <option selected >yourself</option>
+        <option >parent  </option>
+        <option >brather </option>
+        <option >sister  </option>
+        <option >other   </option>
+    </optgroup>
+
+</select>
 
 
 </div>
 
+
+<div class="text-area">
+
+    <label class="labl-all" style="display: inline-block;">Please describe your positive experience.</label>
+
+    <textarea name="text-area" id="text-are" cols="35" rows="4" placeholder="Enter Your Experns here ... "></textarea>
+
+</div>
+
+<div class="btn">
+    <input value="save " type="submit" class="btn-save">
+
+    <input value="reset" type="reset" class="btn-reset">
+
+</div> 
+
+</div>
+
+</div>
+
+</form>
+
 </body>
+
 </html>

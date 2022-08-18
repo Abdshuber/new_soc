@@ -1,54 +1,199 @@
-/* div {
-    width: 1500px;
-    height: 1500px;
-    background-color: rebeccapurple;
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-size: 20px;
-} */
 
-.titl-img {
-    width: 300px;
-    height: 120px;
-    font-size: 50px;
-    background-color: rgb(255 255 255/50%);
-    background-position: left 50%;
+body {
+background-color: rgba(142, 77, 141, 0.24);
+}
+
+.half-1-form {
+background-color: rgba(184, 168, 104, 0.823);
+border-radius: 10px;
+border-width: 0 0 3px 0 ;
+border-color: slategrey;
+border-style: dotted;
+}
+
+.half-2-form {
+height: 360px;
+background-color: rgb(119, 192, 94);
+border-radius: 10px;
+margin-top: -4px;
+border-width:2px 0 0 0  ;
+border-color: slategrey;
+border-style: dotted;
+}
+
+.title {
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+
+.form {
+width: 1000px;
+height: 550px;
+    background-color:rgb(255, 246, 240) ;
+margin-left:250px ;
+border-radius:10px ;
+}
+
+.main .form .title-form {
+font-size: 15px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+text-align: center;
+margin-top: 5px ;
+padding-top:10px ;
+color:  rgb(47 126 20);
+}
+
+.main .form .inp-name  ,
+.main .form .inp-email ,
+.main .form .inp-number,
+.main .form .inp-radio ,
+.main .form .text-area {
+    display: block;
+}
+
+.main .form .inp-name label {
+display: inline-block;
+margin-left: 300px;
+}
+
+.main .form .inp-number label {
+display: inline-block;
+margin-left: 215px;
+margin-top: 30px;
+}
+
+.main .form .inp-email label {
+display: inline-block;
+margin-left: 300px;
+margin-top: 30px;
+}
+
+.main .form .half-2-form .option {
+
+margin-left:150px ;
+margin-top: 20px;
+}
+
+.main .form .half-2-form .option select {
+
+width: 150px;
+height: 30px;
+border-radius: 4px;
+}
+
+.main .form .inp-name .name ,
+.main .form .inp-email .email ,
+.main .form .inp-number .num {
+
+display: inline-block;
+margin-left: 20px;
+margin-top: 20px;
+border-width: .01px;
+border-radius: 3.5px;
+height: 25px;
+width: 250px;
+}
+
+.main .form .inp-radio .all-radio {
+
+    margin-top: 20px;
+    margin-left: 350px;
 
 }
 
-.images {
-    width: 120px;
-    height: 120px;
-    background-position: 200px 200px;
-    background-color: rgba(92, 90, 90, 0.114);
-    /* background-position: center left; */
-}
-
-.p {
-    background-position: 900px 900px;
-
-    width: 400px;
-    height: 50px;
-    background-color: blanchedalmond;
-    font-size: 30px;
-}
-
-.countaner {
-    width: max-content;
-    height: max-content;
-    background-color: beige;
-    background-size: 1000px 1000px;
+.main .form .inp-radio .rad-labl {
+margin-top: 30px;
+display: inline-block;
+margin-left: 120px;
 
 }
 
-
-
-
-
-/* < chalng 1 .title -->class in page tittle #nav -->id for all element in nav div -->all tag "div" are selected h2 -->all tag in the page sorce are selected><chalng 2 <link rel="stylesheet" href="css/file.css" />-->extra <style>p {
-    color: red;
-    -->internal
+.main .form .inp-radio .rad-1 {
+margin-left: 10px;
+margin-top:-38px ;
 }
 
-</style><p style="color: blue;">This Is Our Paragraph</p>-->inline */
+.main .form .inp-radio .rad-2 ,
+.main .form .inp-radio .rad-3 {
+margin-top: 8px;
+margin-left: 10px;
+}
+
+.main .form .inp-chek-box {
+
+    margin-top: 16px;
+}
+
+.main .form .inp-chek-box .chek-labl {
+margin-left: 120px;
+margin-top: 250px;
+}
+
+.main .form .inp-chek-box .chek-1 {
+
+
+    margin-left: 364px;
+    margin-top: -17px;
+}
+
+.main .form .inp-chek-box .chek-2 {
+
+margin-left: 364px;
+margin-top: 6px;
+}
+
+.main .form .inp-chek-box .chek-3 {
+
+    margin-left: 364px;
+    margin-top: 6px;
+}
+
+.main .form .inp-chek-box .chek-4 {
+
+        margin-left: 364px;
+        margin-top: 7px;
+}     
+
+.main .form .inp-chek-box .chek-5 {
+
+            margin-left: 364px;
+            margin-top: 5px;
+}
+
+.main .form .text-area .labl-all {
+
+margin-top: 66px;
+margin-left: 80px;
+margin-right: 23px;    
+}
+
+.main .form  .half-2-form .text-area  {
+
+    margin-top: 2px;
+    display: inline-block;
+    margin-bottom: -33px;
+
+    border-radius: 4px;
+
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom:-33px ;
+}
+
+.main .form .btn .btn-save ,
+.main .form .btn .btn-reset {
+
+margin-left: 30px;   
+background-color: rgba(184, 168, 104, 0.823);
+border-radius:6px ;
+width: 75px;
+height: 30px;
+}
+
+.main .form .btn {
+
+    margin-left: 229px;
+    margin-top: 52px;
+}
+
